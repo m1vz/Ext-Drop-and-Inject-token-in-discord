@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Token Injector",
+  "version": "1.0",
+  "description": "Injeta token de sessão para login rápido.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://discord.com/*"]
+}
